@@ -1,0 +1,54 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+label {
+	flex-basis: 100%;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], button {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-right: 10px;
+	flex-basis: calc(50% - 15px);
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #444;
+}

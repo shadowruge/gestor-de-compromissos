@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" /> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<h1>Gerenciador de Compromissos</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Adicionar Compromisso</h2>
+			<form>
+                <label for="compromisso">Compromisso:</label>
+                <input type="text" id="compromisso" required>
+                
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+                
+                <label for="hora">Hora do evento:</label>
+                <input type="time" id="hora" required>
+                <label></label>
+                <button type="submit">Adicionar</button>
+              </form>
+              
+		</section>
+		<section>
+			<h2>Lista de Compromissos</h2>
+			<ul id="lista-compromissos">
+			</ul>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
